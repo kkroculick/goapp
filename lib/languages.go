@@ -9,7 +9,7 @@ func init() {
 	languages["rb"] = "Ruby"
 	languages["go"] = "Golang"
 	languages["sc"] = "Scala"
-	languages["dt"] = "Dart"
+
 }
 func Get(key string) string {
 	return languages[key]
