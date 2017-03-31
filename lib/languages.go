@@ -8,6 +8,7 @@ func init() {
 	languages["js"] = "JavaScript"
 	languages["rb"] = "Ruby"
 	languages["go"] = "Golang"
+	languages["sc"] = "Scala"
 }
 func Get(key string) string {
 	return languages[key]
